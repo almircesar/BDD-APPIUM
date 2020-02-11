@@ -3,6 +3,34 @@
   <groupId>BDD-Appium-Teste</groupId>
   <artifactId>BDD-Appium-Teste</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+    <dependencies>
+  
+   <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>3.141.59</version>
+        </dependency>
+       
+        <dependency>
+    <groupId>io.appium</groupId>
+    <artifactId>java-client</artifactId>
+    <version>7.3.0</version>
+  </dependency>
+  
+  <dependency>
+			<groupId>com.relevantcodes</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>2.41.2</version>
+		</dependency>
+  
+       <dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.12</version>
+    
+</dependency>
+
+    </dependencies>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
